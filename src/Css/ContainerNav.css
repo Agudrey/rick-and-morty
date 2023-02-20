@@ -1,0 +1,36 @@
+:root{
+  --cyan: #00FFFE;
+  --backColor: #112859;
+}
+
+.containerNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 96vw;
+  height: 100px;
+  padding: 0 15px 0 15px;
+}
+
+.imageLogo {
+  height: 80px;
+  background-color: var(--cyan);
+  border-radius: 50%;
+}
+
+.tittleContainer {
+  color: var(--cyan);
+}
+
+.search{
+  height: 40px;
+  width: 180px;
+  background-color: var(--cyan);
+  border-radius: 15px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bolder;
+  outline: none;
+}
+
+

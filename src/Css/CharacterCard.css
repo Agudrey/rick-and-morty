@@ -1,0 +1,59 @@
+:root {
+  --borderColor: #4e5b79;
+  --alive: #62FF00;
+  --dead: #FF0000;
+  --unknow: #9E6E6E;
+  --infoColor :#8699C7;
+}
+
+.cardContainer{
+  display: flex;
+  height: 200px;
+  width: 450px;
+  border: 2px var(--borderColor) solid ;
+  align-items: center;
+  border-radius: 15px;
+  color: white;
+}
+
+.textContainer{
+  width: 300px;
+  height: 150px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: transparent;
+}
+
+.locationInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 2px;
+}
+
+.locationInfo p{
+  color: var(--infoColor);
+}
+
+.imageCharacter{
+  height: 100%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.bsGreen{
+  color: var(--alive);
+  margin-right: 5px;
+}
+
+.bsRed{
+  color: var(--dead);
+  margin-right: 5px;
+}
+
+.bsUnknow{
+  color: var(--unknow);
+  margin-right: 5px;
+}
